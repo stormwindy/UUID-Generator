@@ -158,7 +158,7 @@ char* UUID() {
     //TODO: Fix MAC parser.
     i = 0;
     while(i < 12) {
-        char mac_a[] = "B8763FDFC85B";
+        char mac_a[] = "AAAAAAAAAAAA"; //Your mac address comes here.
         uuid[idx1] = mac_a[i];
         idx1++;
         i++;
