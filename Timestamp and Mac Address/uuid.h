@@ -165,6 +165,9 @@ char* UUID() {
     }
     pclose(fp);
 
+    if(!uuid[strson(uuid, "0123456789abcdefABCDEF")] == 0) {
+        return '-1';
+    }
     return uuid;
 }
 
